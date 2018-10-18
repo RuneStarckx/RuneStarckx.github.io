@@ -1,26 +1,36 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <style>
-    body{
-    color: rgb(0, 50, 200);
-    }
-    .button{
-    background-color: rgb(183, 248, 255);
-    }
-  </style>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.button {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: rgb(48, 63, 252);
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  font-family: fantasy;
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+</style>
 </head>
 <body>
 
-<h2>HTML Buttons</h2>
-<p>HTML buttons are defined with the button tag:</p>
+<h2>Animated Buttons - "Pressed Effect"</h2>
 
-  <button class="button"><a href="index.html">terug naar index denk ik</a></button>
-  
-  <p>Meneer ik snap die site van w3schools echt niet <br>
-  ik heb dit maar wat gekopieerd van uw voorbeeldsite <br>
-  zou u in de klas dit nog eens kunnen uitleggen?
-  </p>
+  <button class="button"><a href="index.html">Terug naar Home</a></button>
 
 </body>
 </html>
